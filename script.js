@@ -71,7 +71,7 @@ function salvarAlteracoes(index) {
   btn.onclick = adicionarAluno;
 }
 
-// Função para deletar um aluno
+// Função para deletar um aluno teimoso
 function deletarAluno(index) {
   if (confirm('Você tem certeza que deseja excluir este aluno?')) {
     alunos.splice(index, 1);
@@ -79,7 +79,7 @@ function deletarAluno(index) {
   }
 }
 
-// Função para limpar os campos do formulário
+// Função para limpar os campos do formuláriooo
 function limparCampos() {
   document.getElementById('inputNome').value = '';
   document.getElementById('inputEmail').value = '';
