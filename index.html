@@ -10,3 +10,29 @@
   <header>
     <h1>Cadastro de Alunos</h1>
   </header>
+ 
+  <section id="cadastro">
+    <input type="text" id="inputNome" placeholder="Nome do aluno">
+    <input type="email" id="inputEmail" placeholder="E-mail do aluno">
+    <button id="btnCadastrar">Cadastrar</button>
+  </section>
+
+  <section id="alunos">
+    <h2>Lista de Alunos Cadastrados</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="listaAlunos">
+        <!-- Alunos serão listados aqui -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
